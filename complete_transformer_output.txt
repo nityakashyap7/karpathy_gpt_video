@@ -1,0 +1,32 @@
+using device: cuda
+step 0: train loss 4.2810, val loss 4.2791
+step 500: train loss 1.8589, val loss 1.9781
+step 1000: train loss 1.5253, val loss 1.7156
+step 1500: train loss 1.3894, val loss 1.5980
+step 2000: train loss 1.3076, val loss 1.5457
+step 2500: train loss 1.2542, val loss 1.5178
+step 3000: train loss 1.2054, val loss 1.4945
+step 3500: train loss 1.1659, val loss 1.4805
+step 4000: train loss 1.1310, val loss 1.4752
+step 4500: train loss 1.0973, val loss 1.4663
+step 4999: train loss 1.0689, val loss 1.4844
+
+The tristue Tybalt, and Margaret dydred king!
+Look prove him, and this until last,
+Thy countrol confetcher. Shall I be but so?--
+And what should you can be?
+
+PRINCE:
+Talk lament then, not shows me not kiss.
+Nay, this itself and change thee sithers.
+Good and speedy action!
+Give me the princes,--like, dog! you are gone
+Loud fail and falseen in their straitor,
+I tell thought, I have one fall wisdom'd.
+
+FRIAR PETER:
+Procton, how the love!
+That virtue should end more loved by Bohemia?
+
+COPFORD:
+A foo
