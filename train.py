@@ -273,13 +273,9 @@ optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)
 # ****************** BEGIN training loop w periodic evals to gauge progress ******************
 
 for step in range(max_iters):
-    if (
-        step % eval_interval == 0 or step == max_iters - 1
-    ):  # check if its time for the periodic eval
+    if (step % eval_interval == 0 or step == max_iters - 1):  # check if its time for the periodic eval
         losses = estimate_loss()
-        print(
-            f"step {step}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}"
-        )
+        print(f"step {step}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
 
     optimizer.zero_grad(set_to_none=True)  # clear gradients from previous training step
 
