@@ -7,10 +7,10 @@ import torch.nn as nn
 train_proportion = 0.9  # proportion of the data that's reserved for training, rest is for validation
 batch_size = 64  # how many independent sequences will we process in parallel?
 block_size = 256  # what is the maximum context length for predictions?
-max_iters = 5000  # this many steps of gradient descent
-eval_interval = 500  # eval every so often to plot loss as model trains
+max_iters = 500  # this many steps of gradient descent
+eval_interval = 50  # eval every so often to plot loss as model trains
 learning_rate = 3e-4
-device = "cuda" if torch.cuda.is_available() else "cpu" # took 12 mins on complete transfomer
+device = "cuda:7" if torch.cuda.is_available() else "cpu" # took 12 mins on complete transfomer
 # device = "mps" if torch.backends.mps.is_available() else "cpu" # for mac gpu; 41 mins to get to 3500 steps 💀
 eval_iters = 200  # when u do an eval, sample 200 batches so u can report avg loss across those (individual batches can be noisy)
 n_embd = 384  # num dims of embedding vectors
